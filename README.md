@@ -93,4 +93,3 @@ $ npm start
 
 
 navbar concluido/1
-# Edie-homepage
