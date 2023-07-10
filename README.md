@@ -93,3 +93,6 @@ $ npm start
 
 
 navbar concluido/1
+iniciando header-1/2
+header-part-1 finalizada com email e textos
+
