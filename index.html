@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="homer">
     <nav>
       <span class="logo">Edie</span>
       <button onclick="toggleSidebar()" class="btn_header">
@@ -23,8 +23,8 @@
         <button onclick="toggleSidebar()" class="btn_header">
           <img src="assetis/menu.svg" alt="">
         </button>
-        <li><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
+        <li><a href="#homer">Home</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="">Our Works</a></li>
         <li><a href="">Clients</a></li>
         <li><a href="">Contact</a></li>
@@ -55,6 +55,46 @@
       </div>
     </div>
   </header>
+
+  <main>
+    <section class="services" id="services">
+      <h2>We offer high demand services </h2>
+      <div class="cards">
+        <div class="card">
+          <div class="img">
+            <img src="assetis/ux.svg" alt="">
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <div class="button">
+            <button>Get started</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img code">
+            <img src="assetis/code.svg" alt="">
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <div class="button">
+            <button>Get started</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img back">
+            <img src="assetis/back.svg" alt="">
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <div class="button">
+            <button>Get started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
