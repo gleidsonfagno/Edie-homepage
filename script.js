@@ -22,3 +22,5 @@ window.addEventListener('resize', function(event) {
         toggleSidebar();
     }
 });
+
+AOS.init();

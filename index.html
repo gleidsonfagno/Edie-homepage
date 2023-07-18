@@ -8,6 +8,7 @@
 
   <link rel="shortcut icon" href="assetis/devchallenges.png" type="image/x-icon">
   <title>Devchallenges</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
 
 </head>
@@ -25,7 +26,7 @@
         </button>
         <li><a href="#homer">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="">Our Works</a></li>
+        <li><a href="#works">Our Works</a></li>
         <li><a href="">Clients</a></li>
         <li><a href="">Contact</a></li>
       </ul>
@@ -36,7 +37,7 @@
         <p>Unhappy with your website?</p>
         <h1>We create beautiful and fast web services</h1>
       </div>
-      <div class="img_header">
+      <div data-aos="zoom-out-left" class="img_header">
         <img src="assetis/heroImage.jpg" alt="">
       </div>
 
@@ -60,44 +61,84 @@
     <section class="services" id="services">
       <h2>We offer high demand services </h2>
       <div class="cards">
-        <div class="card">
+        <div data-aos="fade-up" class="card">
           <div class="img">
             <img src="assetis/ux.svg" alt="">
           </div>
           <h3>UI/UX Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
           <div class="button">
             <button>Get started</button>
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-up" class="card">
           <div class="img code">
             <img src="assetis/code.svg" alt="">
           </div>
           <h3>UI/UX Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
           <div class="button">
             <button>Get started</button>
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-up" class="card">
           <div class="img back">
             <img src="assetis/back.svg" alt="">
           </div>
           <h3>UI/UX Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
           <div class="button">
             <button>Get started</button>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="works" id="works">
+      <h2>Good design means good business</h2>
+      <div class="cards_work">
+        <div class="cards_1">
+          <div class="img_card">
+            <img src="assetis/smarthome.jpg" alt="smarthome">
+          </div>
+          <p>Full stack application</p>
+          <h3>Smart home dashboard</h3>
+        </div>
+
+        <div class="cards_1">
+          <div class="img_card">
+            <img src="assetis/smarthome.jpg" alt="smarthome">
+          </div>
+          <p>UX/UI design</p>
+          <h3>Onboard application</h3>
+        </div>
+
+        <div class="cards_1">
+          <div class="img_card">
+            <img src="assetis/smarthome.jpg" alt="smarthome">
+          </div>
+          <p>Mobile application</p>
+          <h3>Booking system</h3>
+        </div>
+
+        <div class="cards_1">
+          <div class="img_card">
+            <img src="assetis/smarthome.jpg" alt="smarthome">
+          </div>
+          <p>Front End applicati on</p>
+          <h3>Juice product homepage</h3>
+        </div>
+      </div>
+    </section>
   </main>
 
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 

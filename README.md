@@ -92,7 +92,11 @@ $ npm start
 - Twitter [@your-twitter](https://{twitter.com/your-username})
 
 
-navbar concluido/1
-iniciando header-1/2
-header-part-1 finalizada com email e textos
-services-e-cards-finalizados
+- navbar concluido/1
+- iniciando header-1/2
+- header-part-1 finalizada com email e textos
+- services-e-cards-finalizados
+- adiciono scroll no menu 
+- adicionado animacao com AOS 
+- adicionado fonte pipis no css do gogle
+- adicionado cardes dos servicos

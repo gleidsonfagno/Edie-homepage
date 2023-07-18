@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
 :root {
     --gray1: #333333;
     --gray2: #4F4F4F;
@@ -15,13 +17,16 @@
 }
 
 body * {
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
 }
-
+html{
+    scroll-behavior: smooth;
+    transition: all 0.1ms;
+}
 body {
+    font-family: 'Poppins', sans-serif;
     margin: 42px 52px;
     color: var(--gray1);
-    /* background: #ccc; */
 }
 
 header {
@@ -56,7 +61,6 @@ ul {
 li a {
     text-decoration: none;
     color: #333;
-    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -85,7 +89,6 @@ li a {
 
 .conteudo_header .introducao p {
     color: var(--bluer);
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -96,7 +99,6 @@ li a {
 
 .conteudo_header .introducao h1 {
     color: var(--gray1);
-    font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -115,7 +117,6 @@ li a {
 
 .conteudo_header h2 {
     color: var(--gray1);
-    font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -126,7 +127,6 @@ li a {
 
 .conteudo_header p {
     color: var(--gray2);
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -151,7 +151,6 @@ li a {
 
 label {
     color: var(--gray3);
-    font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -161,7 +160,6 @@ label {
 input {
     padding: 15px;
     color: var(--gray3);
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -182,7 +180,6 @@ form button {
     border-radius: 12px;
     background: var(--bluer);
     color: var(--gray6);
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -191,7 +188,7 @@ form button {
     left: 255px;
     bottom: 48px;
     border: none;
-    cursor: progress;
+    cursor: pointer;
 }
 .services{
     margin-bottom: 194px;
@@ -199,7 +196,6 @@ form button {
 
 .services h2 {
     color: var(--gray1);
-    font-family: Poppins;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
@@ -207,7 +203,6 @@ form button {
     margin-bottom: 42px;
 }
 .services h3{
-    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -215,7 +210,6 @@ form button {
 }
 .services p{
     color: var(--gray2);
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -256,7 +250,6 @@ form button {
     background: #E0E0E0;
     padding: 9px 13px;
     color: var(--gray3);
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -269,8 +262,42 @@ form button {
     background: var(--bluer);
     color: var(--gray6);
 }
+.works h2 {
+    color: var(--gray1);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+.works p{
+    color: var(--gray3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
+.cards_work{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.cards_work .cards_1:nth-child(even){
+    margin-bottom: 100px;
+}
+.cards_1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img_card img{
+    display: block;
+    width: 100%;
+    border-radius: 24px;
+}
 @media (max-width: 900px) {
     body {
         margin: 13px 10px;
@@ -313,5 +340,16 @@ form button {
         display: flex;
         flex-direction: column;
         gap: 42px;
+    }
+    .cards_work{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .works h2{
+        margin-bottom: 48px;
+    }
+    .cards_work .cards_1:nth-child(even){
+        margin-bottom: 0;
     }
 }
