@@ -142,8 +142,8 @@ li a {
 
 }
 
-label {
-    color: var(--gray3);
+header .email label {
+    color: var(--gray3) !important;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
