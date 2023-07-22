@@ -420,6 +420,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 42px 52px;
+    margin-bottom: 154px;
 }
 .footer .links{
     display: flex;
@@ -441,9 +442,9 @@ footer{
 footer p{
     text-align: center;
     color: var(--gray6);
+    padding-bottom: 24px;
 }
 footer p a{
-    /* text-decoration: none; */
     color: var(--gray6);
 }
 @media (max-width: 900px) {
