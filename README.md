@@ -100,3 +100,4 @@ $ npm start
 - adicionado animacao com AOS 
 - adicionado fonte pipis no css do gogle
 - adicionado cardes dos servicos
+- feito partes dos clientes e estilizados com css responsividades
